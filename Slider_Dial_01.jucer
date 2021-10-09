@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<JUCERPROJECT id="ljjXYv" name="Slider_Dial_01" projectType="guiapp" useAppConfig="0"
+              addUsingNamespaceToJuceHeader="0" displaySplashScreen="1" jucerFormatVersion="1">
+  <MAINGROUP id="TUVzRU" name="Slider_Dial_01">
+    <GROUP id="{DDC5B5F7-13D9-0656-EEAA-33D48CACB779}" name="Source">
+      <FILE id="IOCKQ6" name="Main.cpp" compile="1" resource="0" file="Source/Main.cpp"/>
+      <FILE id="Fbgp91" name="MainComponent.h" compile="0" resource="0" file="Source/MainComponent.h"/>
+      <FILE id="SQt8gQ" name="MainComponent.cpp" compile="1" resource="0"
+            file="Source/MainComponent.cpp"/>
+    </GROUP>
+  </MAINGROUP>
+  <JUCEOPTIONS JUCE_STRICT_REFCOUNTEDPOINTER="1"/>
+  <EXPORTFORMATS>
+    <XCODE_MAC targetFolder="Builds/MacOSX">
+      <CONFIGURATIONS>
+        <CONFIGURATION isDebug="1" name="Debug" targetName="Slider_Dial_01"/>
+        <CONFIGURATION isDebug="0" name="Release" targetName="Slider_Dial_01"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_core" path="../../../Documents/JUCE/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../../../Documents/JUCE/modules"/>
+        <MODULEPATH id="juce_events" path="../../../Documents/JUCE/modules"/>
+        <MODULEPATH id="juce_graphics" path="../../../Documents/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../../../Documents/JUCE/modules"/>
+      </MODULEPATHS>
+    </XCODE_MAC>
+  </EXPORTFORMATS>
+  <MODULES>
+    <MODULE id="juce_core" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_data_structures" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_events" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_graphics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+  </MODULES>
+</JUCERPROJECT>
