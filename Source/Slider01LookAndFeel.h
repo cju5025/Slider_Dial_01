@@ -26,7 +26,6 @@ public:
         Rectangle<float> dialArea (rx, ry, diameter, diameter);
         
         g.setColour(Colours::black);
-        g.drawRect(dialArea);
         g.fillEllipse(dialArea);
         
         g.setColour(Colours::white);
