@@ -3,6 +3,13 @@
 MainComponent::MainComponent()
 {
     setSize (600, 400);
+    
+    // TODO: add a text box later, or is that possible in the main plugin?
+    
+    addAndMakeVisible(mDial);
+    mDial.setSliderStyle(Slider::SliderStyle::RotaryHorizontalVerticalDrag);
+    mDial.setTextBoxStyle(Slider::NoTextBox, false, 0, 0);
+    mDial.setLookAndFeel(&mSlider01LookAndFeel);
 }
 
 MainComponent::~MainComponent()
@@ -11,16 +18,10 @@ MainComponent::~MainComponent()
 
 void MainComponent::paint (juce::Graphics& g)
 {
-    g.fillAll (getLookAndFeel().findColour (juce::ResizableWindow::backgroundColourId));
-
-    g.setFont (juce::Font (16.0f));
-    g.setColour (juce::Colours::white);
-    g.drawText ("Hello World!", getLocalBounds(), juce::Justification::centred, true);
+    g.fillAll(Colours::white);
 }
 
 void MainComponent::resized()
 {
-    // This is called when the MainComponent is resized.
-    // If you add any child components, this is where you should
-    // update their positions.
+    mDial.setBounds(getLocalBounds());
 }

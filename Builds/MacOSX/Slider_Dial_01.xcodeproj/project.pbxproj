@@ -46,6 +46,7 @@
 		97D146F365A4BBA82EAA8F31 /* App */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Slider_Dial_01.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2CEDCA443A1BD57DF64966D /* include_juce_events.mm */ /* include_juce_events.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = include_juce_events.mm; path = ../../JuceLibraryCode/include_juce_events.mm; sourceTree = SOURCE_ROOT; };
 		B4450C8EE84BE9282E4AC1E0 /* Main.cpp */ /* Main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Main.cpp; path = ../../Source/Main.cpp; sourceTree = SOURCE_ROOT; };
+		DBFBD08923B98FA0801C16FB /* Slider01LookAndFeel.h */ /* Slider01LookAndFeel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Slider01LookAndFeel.h; path = ../../Source/Slider01LookAndFeel.h; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +115,7 @@
 		C20AE51564974E78018DBAF6 /* Source */ = {
 			isa = PBXGroup;
 			children = (
+				DBFBD08923B98FA0801C16FB,
 				B4450C8EE84BE9282E4AC1E0,
 				73225F9F43C6C195E4344FF5,
 				3CC1B197659A93DF102BB955,
