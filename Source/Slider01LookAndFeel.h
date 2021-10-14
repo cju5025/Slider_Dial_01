@@ -30,8 +30,11 @@ public:
         g.fillEllipse(dialArea);
         
         g.setColour(Colours::white);
-        g.fillEllipse(centreX, centreY, 5, 5);
         
+        Path dialTick;
+        dialTick.addRectangle(0, -radius, 10.0f, radius * 0.75);
+        
+        g.fillPath(dialTick, AffineTransform::rotation(angle).translated(centreX, centreY));
     }
     
 };
