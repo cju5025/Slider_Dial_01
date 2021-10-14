@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <JUCERPROJECT id="ljjXYv" name="Slider_Dial_01" projectType="guiapp" useAppConfig="0"
-              addUsingNamespaceToJuceHeader="0" displaySplashScreen="1" jucerFormatVersion="1">
+              addUsingNamespaceToJuceHeader="1" displaySplashScreen="1" jucerFormatVersion="1">
   <MAINGROUP id="TUVzRU" name="Slider_Dial_01">
     <GROUP id="{DDC5B5F7-13D9-0656-EEAA-33D48CACB779}" name="Source">
+      <FILE id="bm8fXe" name="Slider01LookAndFeel.h" compile="0" resource="0"
+            file="Source/Slider01LookAndFeel.h"/>
       <FILE id="IOCKQ6" name="Main.cpp" compile="1" resource="0" file="Source/Main.cpp"/>
       <FILE id="Fbgp91" name="MainComponent.h" compile="0" resource="0" file="Source/MainComponent.h"/>
       <FILE id="SQt8gQ" name="MainComponent.cpp" compile="1" resource="0"
