@@ -2,7 +2,7 @@
 
 MainComponent::MainComponent()
 {
-    setSize (600, 400);
+    setSize (500, 500);
     
     // TODO: add a text box later, or is that possible in the main plugin?
     
